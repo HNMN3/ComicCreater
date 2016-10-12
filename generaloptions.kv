@@ -1,0 +1,20 @@
+<GeneralOptions@BoxLayout>:
+    orientation:'horizontal'
+    padding:2
+    Button:
+        text:'Clear'
+        on_press:root.clear(*args)
+    Button:
+        text:'Remove'
+        on_release:root.remove(*args)
+    ToggleButton:
+        text:'Group'
+        on_state:root.group(*args)
+    Button:
+        text:'Color'
+        on_press:root.color(*args)
+    ToggleButton:
+        text:'Gestures'
+        on_state:root.gesture(*args)
+    
+
